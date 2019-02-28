@@ -1,0 +1,60 @@
+quien usa go
+    google
+    docker
+    canonical
+    keroku
+    cloudfare
+    platzi
+
+la instalacion de go se debe hacer con sudo o con root
+en /etc/profile
+export PATH=$PATH:/usr/local/go/bin
+
+go tiene su propio work espace
+para versoines menorea a 1.8 demos especificar la ruta
+
+por ejemplo para crear una aplicacion se debe crear tomando en cuata que va a estar en un repositorio
+la linea de abajo seria mi espacio de trabajo
+/home/ernesto_gmz_zcrs/src/github.com/hermesto
+un paquete es la forma de crear modulos en go y que puedas subdividir en carpetas luego
+la priemr linea del archivo debe ser 
+
+package main
+
+para compilar y ejecutar la aplicacion debemos escribir 
+go run main.go
+
+para compilar el programa y generar un binario debemos escribir 
+go build main.go
+
+con println las variables a imprimir deben escribirse al final y para dar formato o colocar variables en una pocicion especificar Printf
+
+formas de declarar una variable
+var name string
+var name string = ""
+lastname := ""
+
+var number = 100
+
+var (
+    a = 1
+    b = 2
+    c = 3
+)
+
+con := go infiere que tipo de dato le estamos pasando
+
+una constante se crea dentro de la funcion tambien puede crearse dentro de la funcion si es que no va a cambiar
+
+
+
+
+
+
+
+
+
+
+
+
+
