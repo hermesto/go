@@ -46,6 +46,11 @@ con := go infiere que tipo de dato le estamos pasando
 
 una constante se crea dentro de la funcion tambien puede crearse dentro de la funcion si es que no va a cambiar
 
+tipos de numeros en go 
+int = int de 32 bits
+int = int de 64 bits
+si se maneja la arquitectura de 32 bits puede haber problemas si se usa el de 64 bits
+si es ARM no hay problema con el int64
 
 
 
