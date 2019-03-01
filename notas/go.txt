@@ -52,6 +52,7 @@ int = int de 64 bits
 si se maneja la arquitectura de 32 bits puede haber problemas si se usa el de 64 bits
 si es ARM no hay problema con el int64
 
+estructura de datos, array y slide
 
 
 
