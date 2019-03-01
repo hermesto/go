@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-const helloWorld string = "hola %s %s, bienvenidos al facinante mundo de go"
+const helloWorld string = "hola %s %s, bienvenidos al facinante mundo de go "
 const testConst = "Test"
 
 func main(){
@@ -31,3 +31,7 @@ func getVariables() ( int, int, int){
 func suma(a int, b int) int {
   return a + b
 }
+
+
+
+

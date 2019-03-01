@@ -11,13 +11,13 @@ en /etc/profile
 export PATH=$PATH:/usr/local/go/bin
 
 go tiene su propio work espace
-para versoines menorea a 1.8 demos especificar la ruta
+para versoines menores a 1.8 demos especificar la ruta
 
-por ejemplo para crear una aplicacion se debe crear tomando en cuata que va a estar en un repositorio
+por ejemplo para crear una aplicacion se debe crear tomando en cuenta que va a estar en un repositorio
 la linea de abajo seria mi espacio de trabajo
 /home/ernesto_gmz_zcrs/src/github.com/hermesto
 un paquete es la forma de crear modulos en go y que puedas subdividir en carpetas luego
-la priemr linea del archivo debe ser 
+la priemer linea del archivo debe ser 
 
 package main
 
